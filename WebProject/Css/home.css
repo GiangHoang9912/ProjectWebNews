@@ -1,0 +1,51 @@
+﻿body {
+}
+
+.imageNews {
+    width: 40%;
+    padding-right: 10px;
+}
+
+.listTop5News {
+    width: 95%;
+    height: 110px;
+    margin: 10px;
+    display: flex;
+}
+
+    .listTop5News a {
+        margin-top: 25px;
+        text-decoration: none;
+        color: #000000;
+        font-family: baomoi,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        font-weight: bold;
+    }
+
+.content-left a {
+    margin-top: 25px;
+    text-decoration: none;
+    color: #000000;
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.LinkButton:hover {
+    color: #e44f4f;
+}
+
+.NewsLittle {
+    padding-top : 30px;
+    float: left;
+    width : 182px;
+    height :199px;
+    margin-left :40px;
+}
+    .NewsLittle a {
+        font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+        font-size: 14px;
+    }
+    .NewsLittle img {
+        width : 182px;
+        height : 109px;
+    }

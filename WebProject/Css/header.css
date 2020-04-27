@@ -1,0 +1,43 @@
+﻿body {
+    margin: 0;
+}
+
+.header img {
+    padding-top: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.header .banner a {
+    color: #902020;
+    font-size: 24px;
+    line-height: 140px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.header .banner {
+    height: 140px;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.header .menu {
+    height: 35px;
+    font-family: sans-serif;
+    background-color: #902020;
+    padding-left: 20px;
+    line-height: 35px;
+}
+
+.header .menu a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 25px;
+}
+.UserInfor {
+    float : right;
+}
+.header {
+    background-color : #e9de0e;
+}

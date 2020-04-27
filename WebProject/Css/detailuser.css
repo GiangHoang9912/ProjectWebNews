@@ -1,0 +1,114 @@
+﻿body {
+}
+
+#ChangePass {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 500px;
+}
+
+.UserInforContent {
+    padding-left: 35%;
+    margin: 50px;
+    height: 350px;
+}
+
+.imgAvata {
+    top: 250px;
+    left: 170px;
+    height: 280px;
+    width: 210px;
+    position: absolute;
+}
+
+    .imgAvata img {
+        height: 100%;
+        width: 100%;
+    }
+
+.btnSave {
+    display: block;
+    float: right;
+    margin-right: 70px;
+}
+
+.UserInforContent input[type="text"] {
+    height: 25px;
+    width: 250px;
+    margin-top: 10px;
+}
+
+.ChangePass input[type="text"] {
+    height: 25px;
+    width: 250px;
+    margin-top: 10px;
+}
+
+.fileName {
+    background: #fff;
+    height: 30px;
+    width: 500px;
+    position: absolute;
+    top: 419px;
+    left: 422px;
+    z-index: 1;
+}
+
+.upLabel {
+    position: absolute;
+    z-index: 2;
+}
+
+#btnChangPass {
+    top: 460px;
+}
+
+.table-news th {
+    width: 50px;
+}
+
+.table-news td {
+    border: 1px solid gray;
+}
+
+.btnAdd {
+    margin-left: 10px;
+    height: 30px;
+}
+
+    .btnAdd:hover {
+        background-color: blue;
+        color: #fff;
+    }
+
+.table-news {
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+    .table-news a:hover {
+        color: #ce4747;
+        text-decoration :none;
+    }
+    .table-news a {
+        color : #0e8060;
+        text-decoration: none;
+    }
+
+    .table-news td {
+        text-align: center;
+    }
+
+.SaveNews a{
+    margin : auto;
+    text-decoration : none;
+}
+.SaveNews {
+    padding-left : 10px;
+    padding-bottom : 20px;
+}
+.SaveNews td{
+    width : 100%;
+}

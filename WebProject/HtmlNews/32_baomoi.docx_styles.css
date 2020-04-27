@@ -1,0 +1,13 @@
+body{ font-family:'Times New Roman'; font-size:1em; }
+p {padding:0;margin-top:0pt;margin-right:0;margin-bottom:8pt;margin-left:0;}
+ul, ol{ margin-top: 0; margin-bottom: 0; }
+.Normal{page-break-inside:auto;page-break-after:auto;page-break-before:auto;margin-top:0pt;margin-bottom:8pt;margin-left:0pt;text-indent:0pt;border-top-style: none;border-left-style: none;border-right-style: none;border-bottom-style: none;font-size:11pt;font-family:Calibri;mso-fareast-font-family:等线;mso-bidi-font-family:Arial;lang:EN-US;mso-fareast-language:EN-US;mso-ansi-language:AR-SA;}
+.Heading-1{page-break-inside:auto;page-break-after:auto;page-break-before:auto;line-height:1;margin-left:0pt;text-indent:0pt;border-top-style: none;border-left-style: none;border-right-style: none;border-bottom-style: none;font-size:24pt;font-family:'Times New Roman';mso-fareast-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-weight:bold;}
+.Heading-2{page-break-inside:avoid;page-break-after:avoid;page-break-before:auto;margin-top:2pt;margin-bottom:0pt;margin-left:0pt;text-indent:0pt;border-top-style: none;border-left-style: none;border-right-style: none;border-bottom-style: none;color:#325592;font-size:13pt;font-family:'Calibri Light';mso-fareast-font-family:'等线 Light';mso-bidi-font-family:'Times New Roman';}
+.Default-Paragraph-Font{font-size:11pt;font-family:Calibri;mso-fareast-font-family:等线;mso-bidi-font-family:Arial;lang:EN-US;mso-fareast-language:EN-US;mso-ansi-language:AR-SA;}
+.Normal-Table{}
+.Heading-1-Char{font-size:24pt;font-family:'Times New Roman';mso-fareast-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-weight:bold;}
+.Heading-2-Char{color:#325592;font-size:13pt;font-family:'Calibri Light';mso-fareast-font-family:'等线 Light';mso-bidi-font-family:'Times New Roman';}
+.Hyperlink{color:#0000FF;font-size:11pt;font-family:Calibri;mso-fareast-font-family:等线;mso-bidi-font-family:Arial;lang:EN-US;mso-fareast-language:EN-US;mso-ansi-language:AR-SA;text-decoration: underline;}
+.Normal--Web-{page-break-inside:auto;page-break-after:auto;page-break-before:auto;line-height:1;margin-left:0pt;text-indent:0pt;border-top-style: none;border-left-style: none;border-right-style: none;border-bottom-style: none;font-size:12pt;font-family:'Times New Roman';mso-fareast-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';}
+.Emphasis{font-size:11pt;font-family:Calibri;mso-fareast-font-family:等线;mso-bidi-font-family:Arial;lang:EN-US;mso-fareast-language:EN-US;mso-ansi-language:AR-SA;font-style:italic;}

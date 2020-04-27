@@ -1,0 +1,131 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Header.master.cs" Inherits="WebProject.Views.Header" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="../css/footer.css" rel="stylesheet" />
+    <link href="../css/header.css" rel="stylesheet" />
+    <link href="../css/home.css" rel="stylesheet" />
+    <link href="../css/login.css" rel="stylesheet" />
+    <link href="../css/masterpage.css" rel="stylesheet" />
+    <link href="../css/detail.css" rel="stylesheet" />
+    <link href="../css/detailuser.css" rel="stylesheet" />
+    <link href="../Css/AddNews.css" rel="stylesheet" />
+    <link href="../Css/Download.css" rel="stylesheet" />
+    <link href="../Css/Register.css" rel="stylesheet" />
+
+    <script src="../Test/pikaday.js"></script>
+
+    <link href="../Css/pikaday.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body onload="IndexChangeColor();">
+    <canvas id="canvas1"></canvas>
+    <script src="../Test/script.js"></script>
+    <form id="form1" runat="server">
+        <%--        <div class="set">
+            <div>
+                <img src="../Logo/CanhHoa.png" />
+            </div>
+            <div>
+                <img src="../Logo/CanhHoa.png" />
+            </div>
+            <div>
+                <img src="../Logo/CanhHoa.png" />
+            </div>
+            <div>
+                <img src="../Logo/CanhHoa.png" />
+            </div>
+            <div>
+                <img src="../Logo/CanhHoa.png" />
+            </div>
+            <div>
+                <img src="../Logo/CanhHoa.png" />
+            </div>
+            <div>
+                <img src="../Logo/CanhHoa.png" />
+            </div>
+            <div>
+                <img src="../Logo/CanhHoa.png" />
+            </div>
+        </div>--%>
+        <div class="container">
+            <div class="header">
+                <div class="banner">
+                    <a href="Home.aspx">
+                        <img src="../Logo/GNews.png" /></a>
+                    <a href="Home.aspx">Wellcome to G News</a>
+                    <asp:TextBox ID="TextSearch" runat="server"></asp:TextBox>
+                    <asp:ImageButton ID="btnSearch" runat="server" ImageUrl="~/Logo/iconSearch.jpg" Height="50px" Width="50px" OnClick="btnSearch_Click" />
+                </div>
+                <div class="menu">
+                    <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">Home</asp:LinkButton>
+                    <asp:Repeater ID="rpType" runat="server" OnItemCommand="rpType_ItemCommand">
+                        <ItemTemplate>
+                            <asp:LinkButton CommandArgument='<%# DataBinder.Eval(Container.DataItem, "TypeName") %>' CommandName='<%# DataBinder.Eval(Container.DataItem, "TypeID") %>' ID="btnType" runat="server"><%# DataBinder.Eval(Container.DataItem, "TypeName") %></asp:LinkButton>
+                        </ItemTemplate>
+                    </asp:Repeater>
+                    <div class="UserInfor">
+                        <% 
+                            if (Session["UserID"] == null)
+                            {
+                        %><a href="#" id="UserInfor" onclick="myFunction();requiredFunLogin();">Login</a><%
+                        }
+                        %>
+                        <% 
+                            if (Session["UserID"] != null)
+                            {
+                        %><asp:LinkButton ID="User" runat="server" OnClick="User_Click"></asp:LinkButton><%
+                        }
+                        %>
+                        <div id="loginform">
+                            <table>
+                                <tr>
+                                    <td>User Name :</td>
+                                    <td>
+                                        <asp:TextBox ID="UserName" runat="server"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Passwords :</td>
+                                    <td>
+                                        <asp:TextBox ID="Password" runat="server" TextMode="Password"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <asp:Button ID="btnLogin" runat="server" Text="Login" OnClick="btnLogin_Click" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <asp:LinkButton ID="btnLinkLose" runat="server">Lost your account ?</asp:LinkButton>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <asp:LinkButton ID="Register" runat="server" OnClick="Register_Click">Register</asp:LinkButton>
+                    </div>
+                </div>
+            </div>
+
+            <%-- Content --%>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <%-- Footer --%>
+            <div class="footer">
+                <div class="last">Giang Hoàng</div>
+                <div class="site">
+                    <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Click Here to view our Contact</asp:LinkButton>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

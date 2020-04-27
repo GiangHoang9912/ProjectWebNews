@@ -1,0 +1,11 @@
+body{ font-family:'Times New Roman'; font-size:1em; }
+p {padding:0;margin-top:0pt;margin-right:0;margin-bottom:8pt;margin-left:0;}
+ul, ol{ margin-top: 0; margin-bottom: 0; }
+.Normal{page-break-inside:auto;page-break-after:auto;page-break-before:auto;margin-top:0pt;margin-bottom:8pt;margin-left:0pt;text-indent:0pt;border-top-style: none;border-left-style: none;border-right-style: none;border-bottom-style: none;font-size:11pt;font-family:Calibri;mso-fareast-font-family:等线;mso-bidi-font-family:Arial;lang:EN-US;mso-fareast-language:EN-US;mso-ansi-language:AR-SA;}
+.Heading-1{page-break-inside:auto;page-break-after:auto;page-break-before:auto;line-height:1;margin-left:0pt;text-indent:0pt;border-top-style: none;border-left-style: none;border-right-style: none;border-bottom-style: none;font-size:24pt;font-family:'Times New Roman';mso-fareast-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-weight:bold;}
+.Default-Paragraph-Font{font-size:11pt;font-family:Calibri;mso-fareast-font-family:等线;mso-bidi-font-family:Arial;lang:EN-US;mso-fareast-language:EN-US;mso-ansi-language:AR-SA;}
+.Normal-Table{}
+.Heading-1-Char{font-size:24pt;font-family:'Times New Roman';mso-fareast-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-weight:bold;}
+.description{page-break-inside:auto;page-break-after:auto;page-break-before:auto;line-height:1;margin-left:0pt;text-indent:0pt;border-top-style: none;border-left-style: none;border-right-style: none;border-bottom-style: none;font-size:12pt;font-family:'Times New Roman';mso-fareast-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';}
+.normal{page-break-inside:auto;page-break-after:auto;page-break-before:auto;line-height:1;margin-left:0pt;text-indent:0pt;border-top-style: none;border-left-style: none;border-right-style: none;border-bottom-style: none;font-size:12pt;font-family:'Times New Roman';mso-fareast-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';}
+.Strong{font-size:11pt;font-family:Calibri;mso-fareast-font-family:等线;mso-bidi-font-family:Arial;lang:EN-US;mso-fareast-language:EN-US;mso-ansi-language:AR-SA;font-weight:bold;}

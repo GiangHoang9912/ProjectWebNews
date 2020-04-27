@@ -1,0 +1,17 @@
+C:\Users\giang\source\repos\Project\Project\bin\Debug\Project.pdb
+C:\Users\giang\source\repos\Project\Project\obj\Debug\Project.AddJournalist.resources
+C:\Users\giang\source\repos\Project\Project\obj\Debug\Project.AdminForm.resources
+C:\Users\giang\source\repos\Project\Project\obj\Debug\Project.DetailForm.resources
+C:\Users\giang\source\repos\Project\Project\obj\Debug\Project.Login.resources
+C:\Users\giang\source\repos\Project\Project\obj\Debug\Project.Properties.Resources.resources
+C:\Users\giang\source\repos\Project\Project\obj\Debug\Project.csproj.GenerateResource.cache
+C:\Users\giang\source\repos\Project\Project\obj\Debug\Project.pdb
+C:\Users\giang\source\repos\Project\Project\bin\Debug\Project.exe.config
+C:\Users\giang\source\repos\Project\Project\bin\Debug\Project.exe
+C:\Users\giang\source\repos\Project\Project\obj\Debug\Project.exe
+C:\Users\giang\source\repos\Project\Project\obj\Debug\Project.csprojAssemblyReference.cache
+C:\Users\giang\source\repos\Project\Project\obj\Debug\Project.DetailUser.resources
+C:\Users\giang\source\repos\Project\Project\bin\Debug\es-PR\Project.resources.dll
+C:\Users\giang\source\repos\Project\Project\obj\Debug\Project.Login.es-PR.resources
+C:\Users\giang\source\repos\Project\Project\obj\Debug\es-PR\Project.resources.dll
+C:\Users\giang\source\repos\Project\Project\obj\Debug\Project.JournalistProcess.resources

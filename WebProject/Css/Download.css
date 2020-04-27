@@ -1,0 +1,14 @@
+﻿body {
+}
+.GenerateHTML {
+    margin-top : 100px;
+}
+.gridviewFileUpload{
+    margin: 10px;
+}
+.GenerateHTML input[type="text"] {
+    height : 25px;
+}
+.GenerateHTML input[type="submit"] {
+    height: 25px;
+}
